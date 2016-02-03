@@ -288,3 +288,5 @@ picking the x-github-event header for github requests.
 <int:header-enricher input-channel="githubHookRequestChannel" output-channel="messageOutputChannel">
      <int:header name="x-renoir-git-repo" expression="#jsonPath(payload, '$.repository.svn_url')"/>
 </int:header-enricher>
+
+take 2
