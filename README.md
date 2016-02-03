@@ -2,9 +2,4 @@
 
 Testing webhooks.
 
-boo to You
-
-and another one.
-
-
-what does this do
+Editing this file in the GitHub UI does result in a webhook message.
